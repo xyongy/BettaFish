@@ -4,9 +4,9 @@
 # ===============================
 # 数据库相关
 # ===============================
-pymysql==1.1.0
-aiomysql==0.2.0
-asyncmy==0.2.10
+pymysql==1.1.1
+aiomysql==0.3.0
+asyncmy==0.2.12
 aiosqlite==0.21.0
 asyncpg
 sqlalchemy
@@ -17,9 +17,9 @@ psycopg[binary]
 # ===============================
 httpx==0.28.1
 socksio==1.0.0
-requests==2.32.3
+requests==2.33.0
 aiofiles~=23.2.1
-cryptography==46.0.3
+cryptography==50.0.0
 
 # ===============================
 # 话题提取模块依赖
@@ -36,7 +36,7 @@ pytz
 # ===============================
 # MediaCrawler爬虫依赖
 # ===============================
-Pillow>=10.0.0
+Pillow>=12.3.0
 playwright==1.45.0
 tenacity==8.2.2
 opencv-python
@@ -44,7 +44,7 @@ redis~=4.6.0
 pydantic==2.5.2
 fastapi==0.110.2
 uvicorn==0.29.0
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 jieba==0.42.1
 wordcloud==1.9.3
 matplotlib==3.9.0
